@@ -16,7 +16,7 @@ function App() {
     <Provider store={store}>
         {/* <Navbar /> */}
         <Switch>
-          {/* <Route path="/products/:id" component={ProductDetails} /> */}
+           <Route path="/products/:id" component={ProductDetails} />
           <Route path="/products" component={Store} />
           {/* <Route path="/cart" component={ShopCart} /> */}
           <Redirect to="/products" />
